@@ -1,0 +1,156 @@
+.Signbody{
+    padding-top: 35px;
+    min-height: 50vh;
+    margin-bottom: 30px;
+}
+
+.signinfo{
+    width: 630px;
+}
+
+label{
+    color: #4B4B4B;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.datos span{
+    text-decoration: none;
+    color: #b7b7b7;
+    font-size: 11px;
+}
+
+.datos input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-color: gray;
+    border: solid 1px;
+    font-family: 'Montserrat';
+    border-radius: 2px;
+    width: 630px;
+}
+
+.doble, .doble2{
+    display: flex;
+}
+
+.doble input {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.doble2 select{
+    width:140px;
+    font-size: 16px;
+    height: 40.8px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-right: 40px;
+    border-radius: 2px;
+    font-family: 'Montserrat';
+}
+
+.doble2 input{
+    width: 480px;
+    margin-right: 10px;
+}
+
+select{
+    border-radius: 2px;
+    width: 650px;
+    font-size: 16px;
+    height: 40.8px;
+    font-family: 'Montserrat';
+}
+
+.return{
+    height: 42px;
+    width: 260px;
+    background-color: #EBEBEB;
+    font-family: 'Montserrat';
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.next{
+    height: 42px;
+    width: 260px;
+    background-color: black;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.Signbody p{
+    color: #4B4B4B;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.terminos{
+    display: flex;
+}
+
+.terminos input{
+    margin-top: 2px;
+    margin-right: 5px;
+    height: 12px;
+    width: 12px;
+}
+.terminos p{
+    margin-top: 0px;
+}
+
+hr{
+    border-color: white;
+}
+
+.Signbody span:hover{
+    color: #4B4B4B;
+}
+
+@media (max-width: 768px) {
+
+    .Loginbody{
+        padding-left:5px;
+    }
+
+    .datos input{
+        width: 95%;
+        margin-right: 0px;
+    }
+    
+    .doble input{
+        width: 45%;
+        margin-right: 10px;
+    }
+
+    .doble input:nth-of-type(2){
+        margin-right: 0px;
+    }
+    
+    .doble2 input{
+        width: 72%;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    .return{
+        width: 100%;
+    }
+    
+    .next{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

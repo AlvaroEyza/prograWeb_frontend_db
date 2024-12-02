@@ -1,0 +1,21 @@
+.Cartbody{
+    padding-top: 20px;
+    min-height: 50vh;
+}
+.Cartbody button{
+    width: 100%;
+    background-color: #EBEBEB;
+    font-family: 'Montserrat';
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.Cartbody p{
+    text-align: center;
+    font-size: 12px;
+}
+
+hr{
+    border-color: white;
+}

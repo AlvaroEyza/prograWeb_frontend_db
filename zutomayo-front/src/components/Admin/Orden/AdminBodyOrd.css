@@ -1,0 +1,28 @@
+.AdminBodyOrd{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.AdminBodyOrd img{
+    height: 70px;
+    width: 70px;
+}
+
+.AdminBodyOrd th, .AdminBodyOrd td{
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.AdminBodyOrd th{
+    background-color: #60328e;
+    color:white;
+    padding: 0 30px;
+}
+
+.AdminBodyOrd a{
+    color:#60328e;
+    text-decoration: none;
+}
+
+

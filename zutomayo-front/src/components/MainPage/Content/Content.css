@@ -1,0 +1,121 @@
+.Contenido {
+    min-height: 402vh;
+    max-width: 67.5em;
+    margin: auto;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.gif {
+    width: 50%;
+    max-width: 198px;
+    height: auto;
+    padding-top: 15px;
+}
+
+.info {
+    margin: 1.25rem; 
+    text-align: center;
+    font-family: 'Montserrat';
+    font-size: 0.875rem;
+}
+
+.info h4 {
+    font-weight: 600;
+    line-height: 1; 
+}
+
+.info h5 {
+    text-align: justify;
+    font-size: 0.75rem; 
+    line-height: 1; 
+}
+
+.info p {
+    padding-top: 0.9375rem;
+    font-size: 0.875rem;
+    color: black;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.info span {
+    color: #BA372A;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.75rem; 
+}
+
+.info h3 {
+    font-size: 0.875rem;
+    line-height: 1.5;
+}
+
+.cuadro {
+    border: solid 1px #60318F;
+    border-radius: 0.5rem; 
+    padding: 0.625rem; 
+    margin: 1.25rem 0; 
+}
+
+.cuadro p {
+    color: #60318F;
+    font-size: 0.75rem; 
+    padding: 0;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.cuadro span {
+    color: #60318F;
+}
+
+.botones{
+    display: flex;
+}
+
+.botones img{
+    width: 49%;
+}
+
+.music{
+    margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+    .info {
+        font-size: 0.875rem;
+    }
+
+    .gif {
+        width: 70%;
+    }
+
+    .cuadro p {
+        font-size: 0.75rem;
+    }
+    .music{
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .info {
+        font-size: 0.75rem;
+        line-height: 1;
+    }
+
+    .gif {
+        width: 90%;
+    }
+
+    .cuadro p {
+        font-size: 0.625rem;
+        line-height: 2;
+    }
+    
+}
+

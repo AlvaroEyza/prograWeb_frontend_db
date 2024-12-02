@@ -1,0 +1,127 @@
+.ProductoCart {
+    height: 130px;
+    display: flex;
+    max-width: 1080px;
+}
+
+.ProductoCart img{
+    width: 75px;
+    height: 75px;
+    padding-top: 10px;
+}
+
+.ProdCartInfo{
+    width: 1080px;
+}
+
+.ProdCartInfo p{
+    font-size: 12px;
+    color:black;
+    font-family: 'Montserrat';
+    padding-left: 10px;
+    padding-top: 12px;
+    margin:0px;
+}
+
+.eliminar{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.eliminar button{
+    margin-top: 20px;
+    font-size: 12px;
+    text-decoration: underline;
+    font-family: 'Montserrat';
+}
+
+.cant {
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.cant button{
+    font-family: 'Montserrat';
+    font-size: 20px;
+    align-items: center;
+    font-weight: 100;
+    padding-top: 12px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+.Subtotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subtotal p:last-of-type{
+    padding-right: 20px;
+}
+
+.Total{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
+.Total p{
+    font-size: 12px;
+    color: black;
+}
+
+.ships{
+    display: flex;
+    justify-content: center;
+}
+
+.ships h3{
+    font-size: 12px;
+    color: black;
+    font-family: 'Montserrat';
+    margin-bottom: 20px;
+}
+
+.additionalInfo p{
+    font-size: 12px;
+    color:#4B4B4B;
+    font-family: 'Montserrat';
+    margin: 0px;
+    line-height: 1.8;
+}
+
+.additionalInfo{
+    margin-bottom: 10px;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.shopping{
+    height: 42px;
+    width: 260px;
+    background-color: #EBEBEB;
+    font-family: 'Montserrat';
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.purchase{
+    height: 42px;
+    width: 260px;
+    background-color: black;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+

@@ -1,0 +1,54 @@
+.TablaOrdenesUsuario{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.TablaOrdenesUsuario img{
+    height: 70px;
+    width: 70px;
+}
+
+.TablaOrdenesUsuario th, .TablaOrdenesUsuario td{
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.TablaOrdenesUsuario th{
+    background-color: #60328e;
+    color:white;
+    padding: 0 30px;
+}
+
+.TablaOrdenesUsuario a{
+    color:#60328e;
+    text-decoration: none;
+}
+
+.UsuarioOrdenes{
+    font-family: 'Montserrat';
+}
+
+.datosEnvio {
+    display: flex;
+    align-items: center;
+}
+
+.datosEnvio h4{
+    font-size: 16px;
+}
+
+.datosEnvio p{
+    padding-left: 10px;
+    font-size: 14px;
+    color: black;
+}
+
+
+.OrdenesUsuario button{
+    background-color: #60328e;
+    color:white;
+    padding: 5px;
+    border: 2px solid black ;
+    margin: 20px 0;
+}

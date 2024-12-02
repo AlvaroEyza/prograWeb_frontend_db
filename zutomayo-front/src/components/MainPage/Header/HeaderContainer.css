@@ -1,0 +1,57 @@
+section{
+    max-width: 1080px;
+    height: 74px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.izquierda{
+    width: 100px;
+    height: 24px;
+}
+
+.Barras{
+    width: 25px;
+    height: 24px;
+
+}
+
+button{
+    cursor: pointer;
+}
+
+.centro{
+    width: 848px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.LogoZutomayo{
+    width: 35.81rem;
+    height: 2.625rem; 
+}
+
+.derecha{
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.BusquedaDerecha{
+    margin-left: 15px;
+    width: 30px;
+    height: 33px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .LogoZutomayo{
+        width: 20rem;
+        height: 2.625rem; 
+    }
+}

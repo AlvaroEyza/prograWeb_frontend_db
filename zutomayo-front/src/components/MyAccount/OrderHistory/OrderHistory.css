@@ -1,0 +1,11 @@
+.OrderHistory{ 
+    max-width: 1080px;
+    margin: auto;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 768px) {
+    .OrderHistory {
+        margin-left: 5px;
+    }
+}

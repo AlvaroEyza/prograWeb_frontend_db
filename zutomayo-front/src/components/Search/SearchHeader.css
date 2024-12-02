@@ -1,0 +1,26 @@
+.search{
+    height: 74px;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.search h2{
+    font-family: 'Montserrat';
+    font-size: 16px;
+    text-align: center;
+}
+
+.search img{
+    height: 17px;
+}
+
+
+
+.search p{
+    font-size: 11px;
+    text-decoration: underline;
+    color: #4B4B4B;
+}

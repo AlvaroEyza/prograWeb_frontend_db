@@ -1,0 +1,83 @@
+.Post{
+    display: flex;
+    width: 67.5em;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.Post img{
+    width: 605px;
+    height: 605px;
+    padding-right: 36px;
+}
+
+.postinfo{
+    width: 40%;
+    font-family: 'Montserrat';
+    padding-right: 36px;
+    line-height: 1.5;
+    margin-top: 0px;
+    margin-top: 20px;
+} 
+
+.postinfo h2{
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.postinfo p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.postinfo h3{
+    font-size: 16px;
+    margin: 0px;
+    font-weight: 100;
+}
+
+.postinfo span{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.postinfo h4{
+    font-size: 12px;
+}
+
+.postinfo select {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.cantidad{
+    display: flex;
+    align-items: center;
+}
+
+.cantidad button{
+    font-family: 'Montserrat';
+    font-size: 35px;
+    align-items: center;
+    font-weight: 100;
+}
+.cantidad h3{
+    padding: 0 16px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.menos{
+    padding-bottom: 5px;
+}
+
+.cart{
+    height: 42px;
+    width: 100%;
+    background-color: black;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}

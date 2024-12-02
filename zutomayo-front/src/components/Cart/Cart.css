@@ -1,0 +1,11 @@
+.Cart{ 
+    max-width: 1080px;
+    margin: auto;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 768px) {
+    .Cart{
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,178 @@
+.PBody{
+    display: flex;
+}
+
+.Purchasebody{
+    padding-top: 5px;
+    min-height: 50vh;
+    margin-bottom: 30px;
+}
+
+.Purchaseinfo{
+    width: 630px;
+}
+
+.Pdatos label{
+    color: #4B4B4B;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.Pdatos span{
+    text-decoration: none;
+    color: #b7b7b7;
+    font-size: 11px;
+}
+
+.Pdatos input{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-color: gray;
+    border: solid 1px;
+    font-family: 'Montserrat';
+    border-radius: 2px;
+    width: 630px;
+}
+.pcard{
+    display: flex;
+    width: 630px;
+}
+
+.pcard span{
+    padding-right: 200px;
+}
+
+.Pdoble{
+    display: flex;
+}
+
+.Pdoble input {
+    width: 300px;
+    margin-right: 10px;
+}
+
+.Pdoble input:last-of-type {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.Ppais {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-color: gray;
+    border: solid 1px;
+    font-family: 'Montserrat';
+    border-radius: 2px;
+    width: 630px;
+}
+
+
+.return{
+    height: 42px;
+    width: 260px;
+    background-color: #EBEBEB;
+    font-family: 'Montserrat';
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.bPurchase{
+    height: 42px;
+    width: 260px;
+    background-color: black;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+
+.Purchasebody p{
+    color: #4B4B4B;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+
+hr{
+    border-color: white;
+}
+
+.Purchasebody span:hover{
+    color: #4B4B4B;
+}
+
+.Summary{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 30%;
+}
+
+.SummaryCart{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.Summary p{
+    font-size: 12px;
+    padding-left: 10px;
+    color: black;
+}
+
+.SummaryCart img{
+    width: 70px;
+    height: 70px;
+}
+
+.SummaryInfo p{
+    font-size: 12px;
+    padding-left: 10px;
+    color: black;
+}
+
+
+@media (max-width: 768px) {
+
+    .Loginbody{
+        padding-left:5px;
+    }
+
+    .datos input{
+        width: 95%;
+        margin-right: 0px;
+    }
+    
+    .doble input{
+        width: 45%;
+        margin-right: 10px;
+    }
+
+    .doble input:nth-of-type(2){
+        margin-right: 0px;
+    }
+    
+    .doble2 input{
+        width: 72%;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    .return{
+        width: 100%;
+    }
+    
+    .next{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

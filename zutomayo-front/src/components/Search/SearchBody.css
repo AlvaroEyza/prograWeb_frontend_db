@@ -1,0 +1,37 @@
+.searchbody{
+    padding-top: 10px;
+}
+
+.searchbody input{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 16px;
+    border: none;
+    font-family: 'Montserrat';
+    outline: none;
+    width: 630px;
+}
+
+.makeSearch{
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchbody p{
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+}
+
+.searchbody button{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat';
+    padding: 4px 15px;
+    font-weight: bolder;
+    margin-right: 10px;
+}
+
+hr{
+    border-color: white;
+}

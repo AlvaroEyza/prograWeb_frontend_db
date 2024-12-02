@@ -1,0 +1,10 @@
+.ShippingForm{
+    margin-top: 20px;
+}
+
+.ShippingForm button{
+    background-color: #60328e;
+    color:white;
+    padding: 5px;
+    border: 2px solid black ;
+}

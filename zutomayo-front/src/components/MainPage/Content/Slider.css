@@ -1,0 +1,52 @@
+.slide-container{
+    width: 1080px;
+    height: 764px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.slider{ 
+    width: 900%;
+    height: 100%;
+    display:flex;
+}
+
+.slide{
+    width: calc(100%/9);
+    height: 100%;
+}
+
+.slide img{ 
+    width: 1080px;
+    height: 764px;
+}
+
+button{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.boton-izq,
+.boton-der{
+    color:gainsboro;
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+    top:50%;
+    padding-left: 10px;
+    font-family:'Segoe UI';
+    cursor: pointer;
+    transition: .5s ease;
+    overflow: hidden;
+}
+
+.boton-izq{
+    left: 5px;
+}
+.boton-der{
+    right: 5px;
+}
+

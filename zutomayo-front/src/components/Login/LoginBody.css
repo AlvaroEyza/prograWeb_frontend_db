@@ -1,0 +1,86 @@
+.Loginbody{
+    padding-top: 35px;
+    min-height: 50vh;
+}
+
+input{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    padding: 10px;
+    border-color: gray;
+    border: solid 1px;
+    font-family: 'Montserrat';
+    border-radius: 2px;
+    width: 630px;
+}
+
+input:nth-of-type(1)
+{
+    margin-bottom: 0px;
+}
+
+
+
+.return{
+    height: 42px;
+    width: 260px;
+    background-color: #EBEBEB;
+    font-family: 'Montserrat';
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.next{
+    height: 42px;
+    width: 260px;
+    background-color: black;
+    font-family: 'Montserrat';
+    color: white;
+    padding: 10px;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.Loginbody a{
+    color: #d20101;
+
+}
+
+.Loginbody p{
+    color: #4B4B4B;;
+    font-size: 12px;
+}
+
+.Loginbody span{
+    text-decoration: none;
+    font-size: 11px;
+    color: #d20101;
+}
+
+hr{
+    border-color: white;
+}
+
+@media (max-width: 768px) {
+
+    .Loginbody{
+        padding-left:5px;
+    }
+
+    input{
+        width: 95%;
+        margin-right: 0px;
+    }
+    
+    .return{
+        width: 100%;
+    }
+    
+    .next{
+        width: 100%;
+        margin-left: 0px;
+    }
+}

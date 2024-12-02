@@ -1,0 +1,10 @@
+.ProfileForm{
+    margin-top: 20px;
+}
+
+.ProfileForm button{
+    background-color: #60328e;
+    color:white;
+    padding: 5px;
+    border: 2px solid black ;
+}

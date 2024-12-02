@@ -1,0 +1,11 @@
+.Purchase{ 
+    max-width: 1080px;
+    margin: auto;
+    font-family: 'Montserrat';
+}
+
+@media (max-width: 768px) {
+    .Purchase {
+        margin-left: 5px;
+    }
+}

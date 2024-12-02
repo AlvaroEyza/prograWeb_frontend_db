@@ -1,0 +1,33 @@
+.AdminBody{
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.AdminBody img{
+    height: 70px;
+    width: 70px;
+}
+
+.AdminBody th, td{
+    font-size: 12px;
+    padding: 0 12px;
+}
+
+.AdminBody th{
+    background-color: #60328e;
+    color:white;
+}
+
+.Admin button{
+    background-color: #60328e;
+    color:white;
+    padding: 5px;
+    border: 2px solid black ;
+}
+
+.agregar{
+    margin-left: 60px;
+}
+
+.editar{margin-left: 10px;}

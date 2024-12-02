@@ -1,0 +1,47 @@
+.MyAccountBody{
+    padding-top: 50px;
+    min-height: 50vh;
+}
+.MyAccountBody button{
+    width: 100%;
+    background-color: #EBEBEB;
+    font-family: 'Montserrat';
+    padding: 10px;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+.MyAccountBody p{
+    font-size: 12px;
+    padding-left: 10px;
+    color: black;
+}
+
+hr{
+    border-color: white;
+}
+
+.MyAccountSection{
+    display: flex;
+}
+
+.MyAccountSection img{
+    height: 30px;
+    width: 30px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+.sesion{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.sesion button{
+    color: #d20101;
+    font-size: 14px;
+    font-weight: bolder;
+    width: 120px;
+    background-color: white;
+}
+
